@@ -1408,7 +1408,7 @@ ol {
   position: relative;
 }
 .shop__option__search form .nice-select {
-  float: left;
+  float: none; /*left*/
   border: none;
   background: transparent;
   display: inline-block;
