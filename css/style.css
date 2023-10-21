@@ -459,7 +459,7 @@ ol {
   margin-right: -5px;
 }
 .header__menu ul li.active a {
-  background: #d95276;
+  background: #d95276; /*why isnt it changing?*/
 }
 .header__menu ul li:hover a {
   background: #d95276;
