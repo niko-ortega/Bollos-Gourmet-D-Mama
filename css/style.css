@@ -459,10 +459,10 @@ ol {
   margin-right: -5px;
 }
 .header__menu ul li.active a {
-  background: #111111;
+  background: #d95276;
 }
 .header__menu ul li:hover a {
-  background: #111111;
+  background: #d95276;
 }
 .header__menu ul li:hover .dropdown {
   top: 62px;
