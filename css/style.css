@@ -3605,6 +3605,8 @@ ol {
 
   .header .container {
     position: relative;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
   }
 
   .categories__slider.owl-carousel .owl-nav button {
