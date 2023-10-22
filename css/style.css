@@ -309,7 +309,7 @@ ol {
   Header
 -----------------------*/
 
-header{
+.nav{
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
