@@ -307,6 +307,12 @@ ol {
 /*---------------------
   Header
 -----------------------*/
+
+header{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
 .header {
   background: #f2b6c6;
 }
@@ -3604,9 +3610,7 @@ ol {
   }
 
   .header .container {
-    /*position: relative;*/
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
+    position: relative;
   }
 
   .categories__slider.owl-carousel .owl-nav button {
