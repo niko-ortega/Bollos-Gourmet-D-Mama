@@ -686,7 +686,7 @@ ol {
   Class
 -----------------------*/
 .class {
-  background: rgba(240, 135, 50, 0.1);
+  background: #f2dfe0/*rgba(240, 135, 50, 0.1)*/;
   position: relative;
   padding-bottom: 0;
 }
