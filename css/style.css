@@ -30,6 +30,7 @@
 html,
 body {
   height: 100%;
+  height: fit-content;
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
