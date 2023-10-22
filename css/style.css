@@ -29,9 +29,11 @@
 /*----------------------------------------*/
 html,
 body {
-  height: 100%;
+  min-height: 100%;
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -312,11 +314,17 @@ ol {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  z-index: 2;
+  margin-top: 0;
+  z-index: 10;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
 }
 
 .header {
   background: #f2b6c6;
+  width: 100%;
 }
 
 .header__top {
@@ -464,6 +472,7 @@ ol {
   list-style: none;
   display: inline-block;
   position: relative;
+  margin-top: 0;
   margin-right: -5px;
 }
 .header__menu ul li.active a {
