@@ -1734,6 +1734,13 @@ ol {
   margin-bottom: 0;
 }
 
+#product__details__td{
+  height: 48px;
+}
+
+#product__details__table{
+  width: 50%;
+}
 
 /*---------------------
   Related Products
