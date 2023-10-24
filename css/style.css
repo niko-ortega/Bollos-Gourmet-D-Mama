@@ -138,8 +138,8 @@ ol {
 }
 
 .spad {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .text-white h1,
@@ -3830,29 +3830,14 @@ ol {
 @media only screen and (max-width: 767px) {
   .canvas__open {
     display: block;
-<<<<<<< Updated upstream
     font-size: 28px;
-=======
-    font-size: 22px;
->>>>>>> Stashed changes
     color: #d95276;
     height: 35px;
     width: 35px;
     line-height: 35px;
     text-align: center;
-<<<<<<< Updated upstream
     border-radius: 2px;
     cursor: pointer;
-=======
-    border: 0;
-    border-radius: 2px;
-    cursor: pointer;
-    position: static;
-  }
-
-  .canvas__open:hover{
-    color: #fdf8f5;
->>>>>>> Stashed changes
   }
 
   .offcanvas-menu-overlay {
@@ -4533,7 +4518,6 @@ ol {
   }
 }
 
-<<<<<<< Updated upstream
 #header-banner{
   width: 100%;
   display: flex;
@@ -4544,9 +4528,4 @@ ol {
 
 #header-banner .header__logo{
   height: 100%;
-=======
-.burger-container {
-  display: flex;
-  align-items: center;
->>>>>>> Stashed changes
 }
