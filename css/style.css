@@ -1293,8 +1293,17 @@ ol {
 /*---------------------
   Footer
 -----------------------*/
+footer{
+  background-color: #0c090d;
+}
+
 footer h6 {
   border-bottom: #f2ca52 2px solid;
+  font-size: 24px;
+}
+
+footer a:hover{
+  text-decoration: underline;
 }
 
 .footer {
