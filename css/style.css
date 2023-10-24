@@ -585,6 +585,14 @@ ol {
 
 .canvas__open {
   display: none;
+  top: 0;
+}
+
+.burger-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 /*---------------------
@@ -3433,18 +3441,14 @@ ol {
 @media only screen and (max-width: 767px) {
   .canvas__open {
     display: block;
-    font-size: 22px;
-    color: #111111;
+    font-size: 28px;
+    color: #d95276;
     height: 35px;
     width: 35px;
     line-height: 35px;
     text-align: center;
-    border: 1px solid #111111;
     border-radius: 2px;
     cursor: pointer;
-    position: absolute;
-    right: 15px;
-    top: 34px;
   }
 
   .offcanvas-menu-overlay {
