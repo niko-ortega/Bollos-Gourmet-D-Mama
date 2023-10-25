@@ -78,11 +78,13 @@ p {
   color: #111111;
   font-weight: 400;
   line-height: 28px;
-  margin: 0 0 15px 0;
+  margin: 0px 0px 15px 0px;
+  text-align: justify;
 }
 
 img {
   max-width: 100%;
+  object-fit: contain;
 }
 
 input:focus,
@@ -1499,7 +1501,7 @@ ol {
 
 .breadcrumb__text h2 {
   font-size: 50px;
-  color: #000000;
+  color: #d95276;
   font-weight: 700;
   font-style: italic;
   font-family: 'Pacifico', regular;
@@ -1536,7 +1538,7 @@ ol {
   About
 -----------------------*/
 .about__text p {
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
 }
 
 .about__bar .about__bar__item {
