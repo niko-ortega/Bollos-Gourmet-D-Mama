@@ -31,9 +31,30 @@
 	<link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
 	<link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/facebook.css" type="text/css">
+
+	<!-- Combo Carousel -->
+	<style>
+		#combo-carousel .owl-nav {
+			display: none;
+		}
+
+		#combo-carousel .owl-dots {
+			margin-top: 16px;
+		}
+	</style>
 </head>
 
 <body>
+	<!-- Carousel scripts -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
@@ -57,11 +78,11 @@
 	<header class="header nav-bar">
 		<div class="container">
 			<div class="row" id="header-banner">
-				
+
 				<div class="header__logo left">
 					<a href="./index.html"><img src="img/logo.png" alt=""></a>
 				</div>
-				
+
 				<div class="col-lg-12">
 					<nav class="header__menu mobile-menu">
 						<ul>
@@ -73,7 +94,7 @@
 						</ul>
 					</nav>
 				</div>
-	
+
 				<div class="burger-container">
 					<div class="canvas__open"><i class="fa fa-bars"></i></div>
 				</div>
@@ -82,7 +103,7 @@
 	</header>
 	<!-- Navigation bar End -->
 	<!-- Header Section End -->
-	
+
 	<!-- Hero Section Begin -->
 	<section class="hero">
 		<div class="hero__slider owl-carousel">
@@ -91,20 +112,20 @@
 					<div class="row d-flex justify-content-center">
 						<div class="col-lg-8">
 							<div class="hero__text">
-								<h2>Hero number 1</h2>
-								<a href="#" class="primary-btn">Our cakes</a>
+								<h2>Bollos Gourmet D' Mamá</h2>
+								<a href="#" class="primary-btn">Nuestros productos</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
+			<div class="hero__item set-bg" data-setbg="img/hero/hero-2.jpg">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
-						<div class="col-lg-8">
+						<div class="col-lg-8 ">
 							<div class="hero__text">
-								<h2>Hero number 2</h2>
-								<a href="#" class="primary-btn">Our cakes</a>
+								<h2>Bollos Gourmet D' Mamá</h2>
+								<a href="#" class="primary-btn">Nuestros combos</a>
 							</div>
 						</div>
 					</div>
@@ -114,494 +135,248 @@
 	</section>
 	<!-- Hero Section End -->
 
-	<!-- About Section Begin -->
-	<section class="about spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6">
-					<div class="about__text">
-						<div class="section-title">
-							<span>About Cake shop</span>
-							<h2>Cakes and bakes from the house of Queens!</h2>
-						</div>
-						<p>The "Cake Shop" is a Jordanian Brand that started as a small family business. The owners are
-							Dr. Iyad Sultan and Dr. Sereen Sharabati, supported by a staff of 80 employees.</p>
+
+	<!-- Combo Section Begin -->
+	<section class="section spad">
+		<div id="Combos">
+			<div class="container">
+				<div class="row">
+					<div class="section-title ">
+						<span>Conoce nuestros</span>
+						<h2 class="centered">Combos</h2>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6">
-					<div class="about__bar">
-						<div class="about__bar__item">
-							<p>Cake design</p>
-							<div id="bar1" class="barfiller">
-								<div class="tipWrap"><span class="tip"></span></div>
-								<span class="fill" data-percentage="95"></span>
+				<div class="row">
+					<div class="owl-carousel owl-dots owl-theme" id="combo-carousel">
+						<div class="combo-card drop-shadow">
+							<div class="combo-img light-on-hover">
+								<img src="img/combo/combo-1.jpg" alt=""></img>
+							</div>
+							<div class="combo-card-info">
+								<div class="combo-main-info">
+									<h5>Combo clásico</h5>
+									<ul class="combo-list">
+										<li class="combo-list-item">1 Frappé</li>
+										<li class="combo-list-item">1 Creppa</li>
+									</ul>
+								</div>
+								<div class="combo-card-details">
+									<div class="price">100</div>
+									<div>
+										<a href="combos.html" class="btn-light">Ver más <i
+												class="fa fa-chevron-right"></i></a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="about__bar__item">
-							<p>Cake Class</p>
-							<div id="bar2" class="barfiller">
-								<div class="tipWrap"><span class="tip"></span></div>
-								<span class="fill" data-percentage="80"></span>
+						<div class="combo-card drop-shadow">
+							<div class="combo-img light-on-hover">
+								<img src="img/combo/combo-2.jpg" alt=""></img>
+							</div>
+							<div class="combo-card-info">
+								<div class="combo-main-info">
+									<h5>Combo waffle</h5>
+									<ul class="combo-list">
+										<li class="combo-list-item">1 Frappé</li>
+										<li class="combo-list-item">1 Waffle</li>
+									</ul>
+								</div>
+								<div class="combo-card-details">
+									<div class="price">120</div>
+									<div>
+										<a href="combos.html" class="btn-light">Ver más <i
+												class="fa fa-chevron-right"></i></a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="about__bar__item">
-							<p>Cake Recipes</p>
-							<div id="bar3" class="barfiller">
-								<div class="tipWrap"><span class="tip"></span></div>
-								<span class="fill" data-percentage="90"></span>
+						<div class="combo-card drop-shadow">
+							<div class="combo-img light-on-hover">
+								<img src="img/combo/combo-3.jpg" alt=""></img>
+							</div>
+							<div class="combo-card-info">
+								<div class="combo-main-info">
+									<h5>Combo banana split</h5>
+									<ul class="combo-list">
+										<li class="combo-list-item">1 Frappé</li>
+										<li class="combo-list-item">1 Banana split</li>
+									</ul>
+								</div>
+								<div class="combo-card-details">
+									<div class="price">110</div>
+									<div>
+										<a href="combos.html" class="btn-light">Ver más <i
+												class="fa fa-chevron-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="combo-card drop-shadow">
+							<div class="combo-img light-on-hover">
+								<img src="img/combo/combo-4.png" alt=""></img>
+							</div>
+							<div class="combo-card-info">
+								<div class="combo-main-info">
+									<h5>Para compartir</h5>
+									<ul class="combo-list">
+										<li class="combo-list-item">2 Frappés</li>
+										<li class="combo-list-item">1 Nachos</li>
+									</ul>
+								</div>
+								<div class="combo-card-details">
+									<div class="price">130</div>
+									<div>
+										<a href="combos.html" class="btn-light">Ver más <i
+												class="fa fa-chevron-right"></i></a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
+
+					<script>
+						$(function () {
+							// Owl Carousel
+							var owl = $(".owl-carousel");
+							owl.owlCarousel({
+								items: 3.5,
+								margin: 0,
+								loop: true,
+								nav: true,
+								dots: true,
+								autoplay: true,
+								autoplayTimeout: 2500,
+								navText: [
+									"<i class='fa fa-caret-left'></i>",
+									"<i class='fa fa-caret-right'></i>"
+								],
+								autoHeight: true,
+								responsive: {
+									0: { items: 1, center: true },
+									768: { items: 2, center: false },
+									1024: { items: 3, center: true },
+									1200: { items: 3.5, center: true }
+								}
+							});
+						});
+					</script>
+					<div class="centered"><a href="combos.html" class="primary-btn">Ver todos los combos</a></div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- About Section End -->
-
-	<!-- Categories Section Begin -->
-	<div class="categories">
-		<div class="container">
-			<div class="row">
-				<div class="categories__slider owl-carousel">
-					<div class="categories__item">
-						<div class="categories__item__icon">
-							<span class="flaticon-029-cupcake-3"></span>
-							<h5>Cupcake</h5>
-						</div>
-					</div>
-					<div class="categories__item">
-						<div class="categories__item__icon">
-							<span class="flaticon-034-chocolate-roll"></span>
-							<h5>Butter</h5>
-						</div>
-					</div>
-					<div class="categories__item">
-						<div class="categories__item__icon">
-							<span class="flaticon-005-pancake"></span>
-							<h5>Red Velvet</h5>
-						</div>
-					</div>
-					<div class="categories__item">
-						<div class="categories__item__icon">
-							<span class="flaticon-030-cupcake-2"></span>
-							<h5>Biscuit</h5>
-						</div>
-					</div>
-					<div class="categories__item">
-						<div class="categories__item__icon">
-							<span class="flaticon-006-macarons"></span>
-							<h5>Donut</h5>
-						</div>
-					</div>
-					<div class="categories__item">
-						<div class="categories__item__icon">
-							<span class="flaticon-006-macarons"></span>
-							<h5>Cupcake</h5>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 	<!-- Categories Section End -->
 
-	<!-- Product Section Begin -->
-	<section class="product spad">
+	<!-- Para este clima Begin -->
+	<section class="spad" id="para-este-clima">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="product__item">
-						<div class="product__item__pic set-bg" data-setbg="img/shop/product-1.jpg">
-							<div class="product__label">
-								<span>Cupcake</span>
-							</div>
-						</div>
-						<div class="product__item__text">
-							<h6><a href="#">Dozen Cupcakes</a></h6>
-							<div class="product__item__price">$32.00</div>
-							<div class="cart_add">
-								<a href="#">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="product__item">
-						<div class="product__item__pic set-bg" data-setbg="img/shop/product-2.jpg">
-							<div class="product__label">
-								<span>Cupcake</span>
-							</div>
-						</div>
-						<div class="product__item__text">
-							<h6><a href="#">Cookies and Cream</a></h6>
-							<div class="product__item__price">$30.00</div>
-							<div class="cart_add">
-								<a href="#">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="product__item">
-						<div class="product__item__pic set-bg" data-setbg="img/shop/product-3.jpg">
-							<div class="product__label">
-								<span>Cupcake</span>
-							</div>
-						</div>
-						<div class="product__item__text">
-							<h6><a href="#">Gluten Free Mini Dozen</a></h6>
-							<div class="product__item__price">$31.00</div>
-							<div class="cart_add">
-								<a href="#">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="product__item">
-						<div class="product__item__pic set-bg" data-setbg="img/shop/product-4.jpg">
-							<div class="product__label">
-								<span>Cupcake</span>
-							</div>
-						</div>
-						<div class="product__item__text">
-							<h6><a href="#">Cookie Dough</a></h6>
-							<div class="product__item__price">$25.00</div>
-							<div class="cart_add">
-								<a href="#">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="product__item">
-						<div class="product__item__pic set-bg" data-setbg="img/shop/product-5.jpg">
-							<div class="product__label">
-								<span>Cupcake</span>
-							</div>
-						</div>
-						<div class="product__item__text">
-							<h6><a href="#">Vanilla Salted Caramel</a></h6>
-							<div class="product__item__price">$05.00</div>
-							<div class="cart_add">
-								<a href="#">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="product__item">
-						<div class="product__item__pic set-bg" data-setbg="img/shop/product-6.jpg">
-							<div class="product__label">
-								<span>Cupcake</span>
-							</div>
-						</div>
-						<div class="product__item__text">
-							<h6><a href="#">German Chocolate</a></h6>
-							<div class="product__item__price">$14.00</div>
-							<div class="cart_add">
-								<a href="#">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="product__item">
-						<div class="product__item__pic set-bg" data-setbg="img/shop/product-7.jpg">
-							<div class="product__label">
-								<span>Cupcake</span>
-							</div>
-						</div>
-						<div class="product__item__text">
-							<h6><a href="#">Dulce De Leche</a></h6>
-							<div class="product__item__price">$32.00</div>
-							<div class="cart_add">
-								<a href="#">Add to cart</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="product__item">
-						<div class="product__item__pic set-bg" data-setbg="img/shop/product-8.jpg">
-							<div class="product__label">
-								<span>Cupcake</span>
-							</div>
-						</div>
-						<div class="product__item__text">
-							<h6><a href="#">Mississippi Mud</a></h6>
-							<div class="product__item__price">$08.00</div>
-							<div class="cart_add">
-								<a href="#">Add to cart</a>
-							</div>
-						</div>
-					</div>
+				<div class="section-title">
+					<h2>Para este clima <i class="fa fa-cloud"></i></h2>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Product Section End -->
+			<div class="row" style="justify-content: center;">
 
-	<!-- Class Section Begin -->
-	<section class="class spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="class__form">
-						<div class="section-title">
-							<span>Class cakes</span>
-							<h2>Made from your <br />own hands</h2>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="product__item">
+						<div class="wrapper-hover" style="display: flex; justify-content: center;">
+							<div class="product_item_pic set-bg hover" data-setbg="img/shop/product-1.jpg"> </div>
 						</div>
-						<form action="#">
-							<input type="text" placeholder="Name">
-							<input type="text" placeholder="Phone">
-							<select>
-								<option value="">Studying Class</option>
-								<option value="">Writting Class</option>
-								<option value="">Reading Class</option>
-							</select>
-							<input type="text" placeholder="Type your requirements">
-							<button type="submit" class="site-btn">registration</button>
-						</form>
+						<div class="product_item_text">
+							<h6><a href="#">Bollos</a></h6>
+							<div class="product_item_price">$32.00</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="class__video set-bg" data-setbg="img/class-video.jpg">
-				<a href="https://www.youtube.com/watch?v=8PJ3_p7VqHw&list=RD8PJ3_p7VqHw&start_radio=1"
-					class="play-btn video-popup"><i class="fa fa-play"></i></a>
-			</div>
-		</div>
-	</section>
-	<!-- Class Section End -->
 
-	<!-- Team Section Begin -->
-	<section class="team spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 col-md-7 col-sm-7">
-					<div class="section-title">
-						<span>Our team</span>
-						<h2>Sweet Baker </h2>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-5 col-sm-5">
-					<div class="team__btn">
-						<a href="#" class="primary-btn">Join Us</a>
-					</div>
-				</div>
-			</div>
-			<div class="row">
 				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="team__item set-bg" data-setbg="img/team/team-1.jpg">
-						<div class="team__item__text">
-							<h6>Randy Butler</h6>
-							<span>Decorater</span>
-							<div class="team__item__social">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-instagram"></i></a>
-								<a href="#"><i class="fa fa-youtube-play"></i></a>
-							</div>
+					<div class="product__item">
+						<div class="wrapper-hover" style="display: flex; justify-content: center;">
+							<div class="product_item_pic set-bg hover" data-setbg="img/shop/product-1.jpg"> </div>
+						</div>
+						<div class="product_item_text">
+							<h6><a href="#">Bollos</a></h6>
+							<div class="product_item_price">$32.00</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="team__item set-bg" data-setbg="img/team/team-2.jpg">
-						<div class="team__item__text">
-							<h6>Randy Butler</h6>
-							<span>Decorater</span>
-							<div class="team__item__social">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-instagram"></i></a>
-								<a href="#"><i class="fa fa-youtube-play"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="team__item set-bg" data-setbg="img/team/team-3.jpg">
-						<div class="team__item__text">
-							<h6>Randy Butler</h6>
-							<span>Decorater</span>
-							<div class="team__item__social">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-instagram"></i></a>
-								<a href="#"><i class="fa fa-youtube-play"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="team__item set-bg" data-setbg="img/team/team-4.jpg">
-						<div class="team__item__text">
-							<h6>Randy Butler</h6>
-							<span>Decorater</span>
-							<div class="team__item__social">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-instagram"></i></a>
-								<a href="#"><i class="fa fa-youtube-play"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Team Section End -->
 
-	<!-- Testimonial Section Begin -->
-	<section class="testimonial spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<div class="section-title">
-						<span>Testimonial</span>
-						<h2>Our client say</h2>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="product__item">
+						<div class="wrapper-hover" style="display: flex; justify-content: center;">
+							<div class="product_item_pic set-bg hover" data-setbg="img/shop/product-1.jpg"> </div>
+						</div>
+						<div class="product_item_text">
+							<h6><a href="#">Bollos</a></h6>
+							<div class="product_item_price">$32.00</div>
+						</div>
 					</div>
+				</div>
+
+			</div>
+
+			<div class="row"><a href="shop.html" class="primary-btn centered">Ver todos los productos</a></div>
+		</div>
+	</section>
+	<!-- Para este clima End -->
+
+	<!-- Map Begin -->
+	<section class="spad">
+		<div class="container">
+			<div class="section-title">
+				<h2>Visítanos</h2>
+			</div>
+
+			<div class="map">
+				<!-- <div class="row">
+					<div class="col-lg-4 col-md-7">
+						<div class="map__inner">
+							<h6>Bollos Gourmet D' Mamá</h6>
+							<p>Calle Héroe de Nacozari sin número col. Río Bravo 3, Río Bravo, Tamaulipas</p>
+						</div>
+					</div>
+					</div> -->
+				<div class="map__iframe">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d376.98006701224836!2d-98.0978471755584!3d25.985776746032766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86656d5a30363c25%3A0x8c34e063624879ec!2sBollos%20Gourmet%20DMAM%C3%81!5e0!3m2!1sen!2smx!4v1698188235216!5m2!1sen!2smx"
+						height="350px" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 			</div>
-			<div class="row">
-				<div class="testimonial__slider owl-carousel">
-					<div class="col-lg-6">
-						<div class="testimonial__item">
-							<div class="testimonial__author">
-								<div class="testimonial__author__pic">
-									<img src="img/testimonial/ta-1.jpg" alt="">
-								</div>
-								<div class="testimonial__author__text">
-									<h5>Kerry D.Silva</h5>
-									<span>New york</span>
-								</div>
-							</div>
-							<div class="rating">
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star-half_alt"></span>
-							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-								ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="testimonial__item">
-							<div class="testimonial__author">
-								<div class="testimonial__author__pic">
-									<img src="img/testimonial/ta-2.jpg" alt="">
-								</div>
-								<div class="testimonial__author__text">
-									<h5>Kerry D.Silva</h5>
-									<span>New york</span>
-								</div>
-							</div>
-							<div class="rating">
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star-half_alt"></span>
-							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-								ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="testimonial__item">
-							<div class="testimonial__author">
-								<div class="testimonial__author__pic">
-									<img src="img/testimonial/ta-1.jpg" alt="">
-								</div>
-								<div class="testimonial__author__text">
-									<h5>Ophelia Nunez</h5>
-									<span>London</span>
-								</div>
-							</div>
-							<div class="rating">
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star-half_alt"></span>
-							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-								ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="testimonial__item">
-							<div class="testimonial__author">
-								<div class="testimonial__author__pic">
-									<img src="img/testimonial/ta-2.jpg" alt="">
-								</div>
-								<div class="testimonial__author__text">
-									<h5>Kerry D.Silva</h5>
-									<span>New york</span>
-								</div>
-							</div>
-							<div class="rating">
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star-half_alt"></span>
-							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-								ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="testimonial__item">
-							<div class="testimonial__author">
-								<div class="testimonial__author__pic">
-									<img src="img/testimonial/ta-1.jpg" alt="">
-								</div>
-								<div class="testimonial__author__text">
-									<h5>Ophelia Nunez</h5>
-									<span>London</span>
-								</div>
-							</div>
-							<div class="rating">
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star-half_alt"></span>
-							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-								ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="testimonial__item">
-							<div class="testimonial__author">
-								<div class="testimonial__author__pic">
-									<img src="img/testimonial/ta-2.jpg" alt="">
-								</div>
-								<div class="testimonial__author__text">
-									<h5>Kerry D.Silva</h5>
-									<span>New york</span>
-								</div>
-							</div>
-							<div class="rating">
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star"></span>
-								<span class="icon_star-half_alt"></span>
-							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-								ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-						</div>
-					</div>
+	</section>
+	<!-- Map End -->
+
+	<!-- Contacto Begin -->
+	<section class=" spad">
+		<div class="container">
+			<div class="contact__form">
+				<div class="section-title">
+					<span>¿Tienes un evento próximo o te interesa vender nuestros productos?</span>
+					<span>También vendemos al mayoreo</span>
+					<h2>Contáctanos</h2>
 				</div>
+				<form action="#" id="contact-form" class="contact__form">
+					<div class="row">
+						<div class="col-lg-6">
+							<label for="name">Nombre</label>
+							<input type="text" placeholder="Nombre Apellido" id="name">
+						</div>
+						<div class="col-lg-6">
+							<label for="email">Correo electrónico</label>
+							<input type="email" placeholder="ejemplo@email.com" id="email">
+						</div>
+						<div class="col-lg-12">
+							<label for="message">Mensaje</label>
+							<textarea placeholder="Escribe tu mensaje aquí..." id="message"></textarea>
+							<button type="submit" class="site-btn">Enviar</button>
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</section>
-	<!-- Testimonial Section End -->
+	<!-- Contacto End -->
+
 
 	<!-- Instagram Section Begin -->
 	<section class="instagram spad">
@@ -610,77 +385,34 @@
 				<div class="col-lg-4 p-0">
 					<div class="instagram__text">
 						<div class="section-title">
-							<span>Follow us on instagram</span>
-							<h2>Sweet moments are saved as memories.</h2>
+							<span>Entérate de todo</span>
+							<h2>Síguenos en Facebook</h2>
 						</div>
-						<h5><i class="fa fa-instagram"></i> @sweetcake</h5>
+						<a href="https://www.facebook.com/profile.php?id=100066507559987">
+							<h5><i class="fa fa-facebook"></i> Bollos Gourmet D' Mamá</h5>
+						</a>
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-6">
-							<div class="instagram__pic">
-								<img src="img/instagram/instagram-1.jpg" alt="">
-							</div>
+					<!-- facebook page frame Begin -->
+					<section class="facebook-page row">
+						<div class="iframe-wrap">
+							<iframe
+								src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F100066507559987&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435"
+								scrolling="yes" style="border:none; overflow:hidden; background: #f2dfe0;"
+								allowtransparency="true" frameborder="0"></iframe>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-6">
-							<div class="instagram__pic middle__pic">
-								<img src="img/instagram/instagram-2.jpg" alt="">
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-6">
-							<div class="instagram__pic">
-								<img src="img/instagram/instagram-3.jpg" alt="">
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-6">
-							<div class="instagram__pic">
-								<img src="img/instagram/instagram-4.jpg" alt="">
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-6">
-							<div class="instagram__pic middle__pic">
-								<img src="img/instagram/instagram-5.jpg" alt="">
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-6">
-							<div class="instagram__pic">
-								<img src="img/instagram/instagram-3.jpg" alt="">
-							</div>
-						</div>
-					</div>
+					</section>
+					<!-- facebook page frame End -->
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- Instagram Section End -->
 
-	<!-- Map Begin -->
-	<div class="map">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-7">
-					<div class="map__inner">
-						<h6>COlorado</h6>
-						<ul>
-							<li>1000 Lakepoint Dr, Frisco, CO 80443, USA</li>
-							<li>Sweetcake@support.com</li>
-							<li>+1 800-786-1000</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="map__iframe">
-			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10784.188505644011!2d19.053119335158936!3d47.48899529453826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1543907528304"
-				height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-		</div>
-	</div>
-	<!-- Map End -->
 
 	<!-- Footer Section Begin -->
-	<footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+	<footer class="footer set-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-6">
@@ -697,7 +429,8 @@
 							<a href="#"><img src="img/footer-logo.png" alt=""></a>
 						</div>
 						<div class="footer__social">
-							<a href="https://www.facebook.com/profile.php?id=100066507559987"><i class="fa fa-facebook"></i></a>
+							<a href="https://www.facebook.com/profile.php?id=100066507559987"><i
+									class="fa fa-facebook"></i></a>
 							<a href="#" style="display: none;"><i class="fa fa-twitter"></i></a>
 							<a href="#" style="display: none;"><i class="fa fa-instagram"></i></a>
 							<a href="#" style="display: none;"><i class="fa fa-youtube-play"></i></a>
@@ -709,7 +442,7 @@
 						<h6>Contáctanos</h6>
 						<ul>
 							<li><i class="fa fa-phone"></i>899 542 4832</li>
-							<li><i class="fa fa-envelope"></i>bollosgourmet.dmama@gmail.com</li>
+							<!-- <li><i class="fa fa-envelope"></i>bollosgourmet.dmama@gmail.com</li> -->
 							<li><a href="contact.html">Ver más</a></li>
 						</ul>
 					</div>
