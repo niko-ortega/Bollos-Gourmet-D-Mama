@@ -1192,6 +1192,17 @@ ol {
 /*---------------------
   Product
 -----------------------*/
+.hover:hover{
+
+  opacity: 0.75;
+}
+
+.wrapper_hover:hover{
+background-color: #ffffff;
+border-radius: 32px;
+}
+
+
 .product {
   padding-top: 50px;
 }
@@ -1217,9 +1228,12 @@ ol {
 }
 
 .product__item__pic {
+  width: 200px;
+  margin: 0px;
   height: 270px;
   position: relative;
   background-position: center;
+  border-radius: 32px;
 }
 
 .product__item__pic .product__label {
