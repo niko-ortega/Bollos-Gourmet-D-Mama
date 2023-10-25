@@ -167,9 +167,10 @@ ol {
   background-color: #d95276;
   letter-spacing: 2px;
   z-index: 2;
+  text-align: center;
 }
 
-.primary-btn:hover{
+.primary-btn:hover {
   background-color: #b8284f;
 }
 
@@ -729,19 +730,19 @@ ol {
 /*---------------------
   CUSTOM HELPERS
 -----------------------*/
-.drop-shadow{
-  box-shadow: 0pc 6pc 12pc -2pc rgba(93,50,65, 0.25);
+.drop-shadow {
+  box-shadow: 0pc 6pc 12pc -2pc rgba(93, 50, 65, 0.25);
 }
 
-.price::before{
+.price::before {
   content: '$ ';
 }
 
-.light-on-hover{
+.light-on-hover {
   background-color: #ffffff;
 }
 
-.light-on-hover:hover img{
+.light-on-hover:hover img {
   opacity: 0.75;
 }
 
@@ -1318,7 +1319,7 @@ ol {
 /*---------------------
   Footer
 -----------------------*/
-footer{
+footer {
   background-color: #0c090d;
 }
 
@@ -1327,7 +1328,7 @@ footer h6 {
   font-size: 24px;
 }
 
-footer a:hover{
+footer a:hover {
   text-decoration: underline;
 }
 
@@ -3166,14 +3167,15 @@ footer a:hover{
 
 .combo-img {
   width: 80vw;
-  max-width: 250px;
+  max-width: 255px;
   border-radius: 12px;
   background-color: #ffffff;
 }
 
 .combo-card img {
-  width: 100%;
-  object-fit: contain;
+  max-width: 100%;
+  height: 210px;
+  object-fit: cover;
   border-radius: 16px;
 }
 
@@ -3183,7 +3185,7 @@ footer a:hover{
   width: 100%;
 }
 
-.combo-card-info h5{
+.combo-card-info h5 {
   font-weight: 650;
 }
 
@@ -3192,7 +3194,7 @@ footer a:hover{
   margin-top: 8px;
 }
 
-.combo-card .combo-card-details{
+.combo-card .combo-card-details {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -3200,7 +3202,7 @@ footer a:hover{
   margin-top: 16px;
 }
 
-.combo-card .price{
+.combo-card .price {
   font-weight: 600;
 }
 
@@ -3208,7 +3210,7 @@ footer a:hover{
 /*---------------------
 Para este clima
 -----------------------*/
-#para-este-clima{
+#para-este-clima {
   background-color: #f2dfe0;
 }
 
@@ -4198,6 +4200,19 @@ Para este clima
 
   .header .container {
     position: relative;
+  }
+
+  .section-title {
+    width: 100%;
+  }
+
+  .section-title * {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-title span {
+    font-size: 14px;
   }
 
   .categories__slider.owl-carousel .owl-nav button {
