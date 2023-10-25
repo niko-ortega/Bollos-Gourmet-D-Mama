@@ -138,6 +138,7 @@ ol {
 }
 
 .spad {
+  margin-bottom: 40px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -163,8 +164,13 @@ ol {
   text-transform: uppercase;
   padding: 14px 30px;
   color: #ffffff;
-  background: #f2b6c6;
+  background-color: #d95276;
   letter-spacing: 2px;
+  z-index: 2;
+}
+
+.primary-btn:hover{
+  background-color: #b8284f;
 }
 
 .site-btn {
@@ -718,6 +724,25 @@ ol {
 .hero__slider.owl-carousel .owl-nav button.owl-next {
   left: auto;
   right: 30px;
+}
+
+/*---------------------
+  CUSTOM HELPERS
+-----------------------*/
+.drop-shadow{
+  box-shadow: 0pc 6pc 12pc -2pc rgba(93,50,65, 0.25);
+}
+
+.price::before{
+  content: '$ ';
+}
+
+.light-on-hover{
+  background-color: #ffffff;
+}
+
+.light-on-hover:hover img{
+  opacity: 0.75;
 }
 
 /*---------------------
@@ -3127,6 +3152,66 @@ footer a:hover{
 .blog__hero__text ul li:last-child:after {
   display: none;
 }
+
+/*---------------------
+  COMBO CARD
+-----------------------*/
+.combo-card {
+  margin: 18px 16px;
+  width: fit-content;
+  border-radius: 16px;
+  padding: 20px 18px;
+  background-color: #ffffff;
+}
+
+.combo-img {
+  width: 80vw;
+  max-width: 250px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.combo-card img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 16px;
+}
+
+.combo-card-info {
+  padding: 18px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.combo-card-info h5{
+  font-weight: 650;
+}
+
+.combo-card .combo-list {
+  padding-left: 32px;
+  margin-top: 8px;
+}
+
+.combo-card .combo-card-details{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.combo-card .price{
+  font-weight: 600;
+}
+
+
+/*---------------------
+Para este clima
+-----------------------*/
+#para-este-clima{
+  background-color: #f2dfe0;
+}
+
 
 /*---------------------
   Blog Details

@@ -1,7 +1,8 @@
-blanco      #fdf8f5
-negro       #0c090d
-rosa oscuro #d95276
-rosa medio  #f2b6c6
-rosa claro  #f2dfe0
-dorado      #f2ca52
-gris        #9b9b9b
+blanco          #fdf8f5
+negro           #0c090d
+rosa mas oscuro #b8284f
+rosa oscuro     #d95276
+rosa medio      #f2b6c6
+rosa claro      #f2dfe0
+dorado          #f2ca52
+gris            #9b9b9b
