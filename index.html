@@ -43,6 +43,8 @@
 			margin-top: 16px;
 		}
 	</style>
+
+	<script src="//code.jquery.com/jquery.min.js"></script>
 </head>
 
 <body>
@@ -59,50 +61,17 @@
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
+	<!-- Page Preloder -->
 
-	<!-- Header Section Begin -->
-	<!-- Offcanvas Menu Begin -->
-	<div class="offcanvas-menu-overlay"></div>
-	<div class="offcanvas-menu-wrapper">
+	<!-- Nav Bar Begin -->
+	<div id="nav-placeholder"></div>
 
-		<div class="offcanvas__logo">
-			<a href="./index.html"><img src="img/logo.png" alt=""></a>
-		</div>
-
-		<div id="mobile-menu-wrap"></div>
-
-	</div>
-	<!-- Offcanvas Menu End -->
-
-	<!-- Navigation bar Begin -->
-	<header class="header nav-bar">
-		<div class="container">
-			<div class="row" id="header-banner">
-
-				<div class="header__logo left">
-					<a href="./index.html"><img src="img/logo.png" alt=""></a>
-				</div>
-
-				<div class="col-lg-12">
-					<nav class="header__menu mobile-menu">
-						<ul>
-							<li class="active"><a href="./index.html">Inicio</a></li>
-							<li><a href="./shop.html">Menú</a></li>
-							<li><a href="./blog.html">Combos</a></li>
-							<li><a href="contact.html">Contacto</a></li>
-							<li><a href="./acerca.html">Acerca de</a></li>
-						</ul>
-					</nav>
-				</div>
-
-				<div class="burger-container">
-					<div class="canvas__open"><i class="fa fa-bars"></i></div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- Navigation bar End -->
-	<!-- Header Section End -->
+	<script>
+		$.get("snippets/nav-bar.html", function (data) {
+			$("#nav-placeholder").replaceWith(data);
+		});
+	</script>
+	<!-- Nav Bar End -->
 
 	<!-- Hero Section Begin -->
 	<section class="hero">
@@ -278,40 +247,49 @@
 			<div class="row" style="justify-content: center;">
 
 				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="product__item">
-						<div class="wrapper-hover" style="display: flex; justify-content: center;">
-							<div class="product_item_pic set-bg hover" data-setbg="img/shop/product-1.jpg"> </div>
-						</div>
-						<div class="product_item_text">
-							<h6><a href="#">Crepas</a></h6>
-							<div class="product_item_price"><span class="price">60</span></div>
-						</div>
-					</div>
-				</div>
+                    <a href="./shop-details.html">
+                        <div class="product__item products-gap">
+                            <div class="wrapper-hover" style="display: flex; justify-content: center;">
+                                <div class="set-bg hover product_width"> <img class="product__item__pic"
+                                        src="img/products/bollo bubulubu.jpg" alt=""> </div>
+                            </div>
+                            <div class="product__item__text">
+                                <h6><a href="#">Bollo bubulubu</a></h6>
+                                <div class="product_item_price"><span class="price">20</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="product__item">
-						<div class="wrapper-hover" style="display: flex; justify-content: center;">
-							<div class="product_item_pic set-bg hover" data-setbg="img/shop/product-1.jpg"> </div>
-						</div>
-						<div class="product_item_text">
-							<h6><a href="#">Donas</a></h6>
-							<div class="product_item_price"><span class="price">20</span></div>
-						</div>
-					</div>
-				</div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <a href="./shop-details.html">
+                        <div class="product__item products-gap">
+                            <div class="wrapper-hover" style="display: flex; justify-content: center;">
+                                <div class="set-bg hover product_width"> <img class="product__item__pic"
+                                        src="img/products/bollo cheesecake de fresa.jpg" alt=""> </div>
+                            </div>
+                            <div class="product__item__text">
+                                <h6><a href="#">Bollo cheesecake de fresa</a></h6>
+                                <div class="product_item_price"><span class="price">20</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="product__item">
-						<div class="wrapper-hover" style="display: flex; justify-content: center;">
-							<div class="product_item_pic set-bg hover" data-setbg="img/shop/product-1.jpg"> </div>
-						</div>
-						<div class="product_item_text">
-							<h6><a href="#">Waffles</a></h6>
-							<div class="product_item_price"><span class="price">50</span></div>
-						</div>
-					</div>
-				</div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <a href="./shop-details.html">
+                        <div class="product__item products-gap">
+                            <div class="wrapper-hover" style="display: flex; justify-content: center;">
+                                <div class="set-bg hover product_width"> <img class="product__item__pic"
+                                        src="img/products/bollo mazapan.jpg" alt=""> </div>
+                            </div>
+                            <div class="product__item__text">
+                                <h6><a href="#">Bollo mazapan</a></h6>
+                                <div class="product_item_price"><span class="price">20</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
 			</div>
 
@@ -387,14 +365,14 @@
 				</div>
 				<div class="col-lg-8">
 					<!-- facebook page frame Begin -->
-					<section class="facebook-page row">
+					<!-- <section class="facebook-page row">
 						<div class="iframe-wrap">
 							<iframe
 								src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F100066507559987&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435"
 								scrolling="yes" style="border:none; overflow:hidden; background: #f2dfe0;"
 								allowtransparency="true" frameborder="0"></iframe>
 						</div>
-					</section>
+					</section> -->
 					<!-- facebook page frame End -->
 				</div>
 			</div>

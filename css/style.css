@@ -3222,6 +3222,8 @@ footer a:hover {
   height: 210px;
   object-fit: cover;
   border-radius: 16px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .combo-card-info {
