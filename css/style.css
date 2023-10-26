@@ -1587,9 +1587,6 @@ footer a:hover {
 /*---------------------
   About
 -----------------------*/
-.about__text p {
-  /*margin-bottom: 0;*/
-}
 
 .about__bar .about__bar__item {
   margin-bottom: 40px;
