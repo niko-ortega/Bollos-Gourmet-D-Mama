@@ -170,10 +170,12 @@ ol {
   letter-spacing: 2px;
   z-index: 2;
   text-align: center;
+  border: 0;
 }
 
 .primary-btn:hover {
   background-color: #b8284f;
+  color: #fff;
 }
 
 .site-btn {
@@ -3224,6 +3226,12 @@ footer a:hover {
   font-weight: 600;
 }
 
+/* FORM CARDS */
+
+.form-card{
+  padding: 36px 24px;
+  border-radius: 18px;
+}
 
 /*---------------------
 Para este clima
