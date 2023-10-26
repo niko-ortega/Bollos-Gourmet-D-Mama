@@ -1272,13 +1272,13 @@ border-radius: 32px;
 }
 
 .product__item__text {
-  padding-top: 40px;
+  padding-top: 25px;
   text-align: center;
   position: relative;
 }
 
 .product__item__text h6 {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .product__item__text h6 a {
