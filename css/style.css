@@ -1623,9 +1623,7 @@ footer a:hover {
 /*---------------------
   About
 -----------------------*/
-.about__text p {
-  /*margin-bottom: 0;*/
-}
+
 
 .about__bar .about__bar__item {
   margin-bottom: 40px;
@@ -3210,6 +3208,12 @@ footer a:hover {
   display: none;
 }
 
+.border-hero{
+border-radius: 32px;
+margin: 8px;
+}
+
+
 /*---------------------
   COMBO CARD
 -----------------------*/
@@ -3233,13 +3237,8 @@ footer a:hover {
   height: 210px;
   object-fit: cover;
   border-radius: 16px;
-<<<<<<< Updated upstream
   width: 100%;
   object-fit: cover;
-=======
-  display: block;
-    width: 100%;
->>>>>>> Stashed changes
 }
 
 .combo-card-info {
