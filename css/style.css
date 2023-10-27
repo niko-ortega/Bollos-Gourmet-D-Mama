@@ -3233,8 +3233,13 @@ footer a:hover {
   height: 210px;
   object-fit: cover;
   border-radius: 16px;
+<<<<<<< Updated upstream
   width: 100%;
   object-fit: cover;
+=======
+  display: block;
+    width: 100%;
+>>>>>>> Stashed changes
 }
 
 .combo-card-info {
