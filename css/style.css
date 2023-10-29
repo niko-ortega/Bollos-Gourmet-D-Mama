@@ -1624,6 +1624,11 @@ footer a:hover {
   About
 -----------------------*/
 
+.sobre-nosotros-div{
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-bottom: 16px;
+}
 
 .about__bar .about__bar__item {
   margin-bottom: 40px;
