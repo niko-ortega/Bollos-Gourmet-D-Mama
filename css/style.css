@@ -38,6 +38,7 @@
 
 html,
 body {
+  background-color:#fdf8f5;
   min-height: 100%;
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
